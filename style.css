@@ -72,3 +72,9 @@ body{
     font-size: 14.5px;
     margin: -15px 0 15px;
   }
+
+  .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
