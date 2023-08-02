@@ -9,3 +9,7 @@ function validateFields() {
     recoverPasswordLink.disabled = !password;
     loginButton.disabled = !isEmailValid || !password;
 }
+
+function validateEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+}
