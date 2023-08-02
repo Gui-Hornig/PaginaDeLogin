@@ -93,3 +93,7 @@ body{
     font-weight: 600;
     text-decoration: none;
   }
+
+  .btn:active, .register-link-button:active, .remember-forgot-a:active{
+    opacity: 0.8;
+   }
